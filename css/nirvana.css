@@ -1,0 +1,529 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+
+body {
+	background-color: black;
+	font-family: 'Roboto Condensed', sans-serif;
+}	
+h2 {
+	font-size: 30pt;
+	font-weight: 100;
+	color: white; 
+	padding-left: 43px; 
+	margin-top: 22px;
+	width: 600px;
+}
+#head{
+	position:absolute;
+	width: 1024px;
+	height: 80px;
+	top: 0px;
+	left: 0px;
+	background-color:black; 
+}
+.floatright{
+	float: right;
+}
+.floatleft{
+	float: left;
+}
+#menu {
+	width: 600px;
+	height: 80px;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	margin-top: 20px;
+}
+.playinstruction{
+	color: white;
+	font-size: 6pt;
+	text-align: center;
+}
+#audio{
+	width: 250px;
+	margin-top: 2px;
+}
+#mainview{
+	position:absolute;
+	width: 1024px;
+	height: 470px;
+	top: 80px;
+	left: 0px;
+}
+#infoblock{
+	position:absolute;
+	width: 380px;
+	height: 275px;
+	top: 80px;
+	left: 24px;
+	background-image:url('../img/screen.png');
+	z-index: 100;  
+	border-radius: 1px;
+	padding-left: 35px;
+	padding-right: 71px;
+	padding-top: 7px; 
+}
+#infoblock p{
+	font-size: 13pt;
+	font-weight: 400;
+	color: black; 
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.message{
+	font-size: 34pt;
+	font-weight: 700; 
+	color: black;
+	line-height: 32pt; 
+}
+.buylink{
+	margin-top: 22px;
+}
+.buylink a{
+	background-color: #ffe100;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 13px;
+	padding-left: 18px;
+}
+#socialmedia{
+	position:absolute;
+	width: 1024px;
+	height: 80px;
+	top: 550px;
+	left: 0px;
+	background-color:black; 
+	text-align: center;
+	padding-top: 30px;
+}
+#members{
+	position:absolute;
+	width: 1024px;
+	height: 505px;
+	top: 660px;
+	left: 0px;
+	background-color:#202020; 
+	text-decoration: none;
+}
+.allmembers{
+	color: #ffe100;
+	font-weight: 700;
+	font-size: 13pt; 
+	text-align: right; 
+	text-decoration: none;
+	margin-top: 20px; 
+	padding-top: 20px;
+	height: 25px; 
+	width: 125px; 
+	padding-right: 37px;
+}
+#member1{
+	position:absolute;
+	width: 215px;
+	height: 345px;
+	top: 747px;
+	left: 80px;
+	z-index: 100; 
+	background-color: #282828;
+	border-radius: 1px;
+}
+#member2{
+	position:absolute;
+	width: 215px;
+	height: 345px;
+	top: 747px;
+	left: 405px;
+	background-color:#282828; 
+	z-index: 100; 
+	border-radius: 1px;
+}
+#member3{
+	position:absolute;
+	width: 215px;
+	height: 345px;
+	top: 747px;
+	left: 729px;
+	background-color:#282828; 
+	z-index: 100; 
+	border-radius: 1px;
+}
+.membername{
+	font-weight:700;
+	color: #969696;
+	font-size: 13pt;
+	text-decoration: none;
+	margin-left: 20px;
+	padding-right: 25px;
+	display: block;
+}
+.memberinfo{
+	font-weight:100;
+	color:#A1A1A1;
+	font-size: 10pt;
+	padding-left: 20px;
+	padding-right: 25px;
+	margin-bottom: 3px;
+}
+.imagemember{
+	border-bottom: solid 10px #202020;
+}
+#furtherinfo{
+	position:absolute;
+	width: 1024px;
+	height: 560px;
+	top: 1164px;
+	left: 0px;
+	background-color:yellow; 
+	background-image:url('../img/furtherinfo.png');
+}
+.albumlist{
+	position:absolute;
+	width: 215px;
+	height: 135px;
+	top: 1275px;
+	left: 80px;
+	background-color: #282828; 
+	color: #969696;
+	z-index: 100;
+	border-radius: 1px;
+}
+.detailalbum{
+	margin-bottom: 2px;
+}
+.list{
+	padding-left: 20px;
+}
+.download{
+	text-decoration: none;
+	color: #969696;
+}
+.notation{
+	font-size: 7pt;
+	color: #727272;
+	margin-left: 4px;
+}
+.formermembers{
+	position:absolute;
+	width: 215px;
+	height: 225px;
+	top: 1430px;
+	left: 80px;
+	background-color: #282828; 
+	color: #969696;
+	z-index: 100; 
+	border-radius: 1px;
+}
+.smallheading {
+	background-color:#727272;
+	color:#ffe100;
+	font-size: 11pt;
+	font-weight: 400;
+	text-align: center;
+	padding: 9px;
+}
+.furthermembers{
+	position:absolute;
+	width: 215px;
+	height: 380px;
+	top: 1275px;
+	left: 405px;
+	background-color: #282828; 
+	color: #969696;
+	z-index: 100; 
+	border-radius: 1px;
+}
+.memberheading{
+	margin-left: 8px;
+	font-weight: bold;
+}
+.hr{
+	margin-left: 6px;
+	margin-right: 6px;
+	border-color: #727272;
+	color: #727272;
+}
+.bandshistory{
+	position:absolute;
+	width: 215px;
+	height: 380px;
+	top: 1275px;
+	left: 729px;
+	background-color: #282828; 
+	color: #969696;
+	z-index: 100;
+	border-radius: 1px;
+}
+.historylist li{
+	font-size: 10pt;
+}
+#furtherinfo2{
+	position:absolute;
+	width: 1024px;
+	height: 500px;
+	top: 1723px;
+	left: 0px;
+	background-color:#202020;  
+}
+.awards{
+	position: absolute;
+	width: 350px;
+	height: 380px;
+	top: 1770px;
+	left: 80px;
+	background-color: #282828; 
+	color: #969696;
+	z-index: 100;
+	border-radius: 1px;
+}
+.tableaward{
+	font-size: 10pt;
+	margin: 0px auto;
+	margin-top: 6px;
+}
+.tableaward th{
+	text-align: left;
+	font-size: 11pt;
+	border-top: 1px solid #727272;
+}
+.year{
+	font-weight: bold;
+}
+#newsletter{
+	position: absolute;
+	width: 350px;
+	height: 380px;
+	top: 1770px;
+	left: 594px;
+	background-color: #282828; 
+	color: #969696;
+	z-index: 100;
+	border-radius: 1px;
+}
+.signuptable{
+	margin-top: 6px;
+	margin-left: 8px;
+}
+.signuptable td{
+	padding-top: 12px;
+}
+.checkboxlabel{
+	font-size: 10pt;
+	color: #727272;
+}
+.terms {
+	color: blue;
+}
+a.terms:hover{
+	font-weight: bold;
+}
+#submit {
+	background-color: #FF0004;
+	border: none;
+	color: #FDFDFD;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	border-radius: 3px;
+}
+#reset {
+	background-color: #727272;
+	border: none;
+	color: #FDFDFD;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	border-radius: 3px;
+}
+#closinglabel{
+	position: absolute;
+	width: 1024px;
+	height: 230px;
+	top: 2223px;
+	left: 0px;
+	background-color: black;
+}
+.relatedlinks{
+	position: absolute;
+	width: 600px;
+	height: 100px;
+	top: 2315px;
+	left: 80px;
+	background-color: #282828; 
+	border-radius: 1px;
+}
+.linktable{
+	margin: 0px auto;
+	margin-top: 14px;
+}
+.linktable td{
+	padding: 4px;
+}
+.relatedlink{
+	color: #969696;
+}
+#finalinfo{
+	position: absolute;
+	width: 1024px;
+	height: 80px;
+	top: 2453px;
+	left: 0px;
+	background-color: #202020;
+}
+.lastinfo{
+	font-size: 10pt;
+	margin-top: 27px;
+	text-align: center;
+	color: rgb(182, 182, 182);
+}
+/*
+
+GALLERY 
+
+*/
+#gallerycontainer{
+	position:absolute;
+	width: 1024px;
+	height: 470px;
+	top: 80px;
+	left: 0px;
+	background-image:url('../img/gallerybackground.jpg'); 
+}
+.gallery {
+	padding: 10px;
+	padding-bottom: 30px;
+}
+.gallery img{
+	border-top: 4px solid #FFD209;
+	border-bottom: 4px solid #FFD209;
+}
+#finalinfogallery{
+	position: absolute;
+	width: 1024px;
+	height: 80px;
+	top: 660px;
+	left: 0px;
+	background-color: #202020;
+}
+/*
+
+MERCHANDIZE
+
+
+*/
+#merchandizecontainer{
+	position:absolute;
+	width: 1024px;
+	height: 470px;
+	top: 80px;
+	left: 0px;
+	background-image:url('../img/gallerybackground.jpg'); 
+}
+#merch1{
+	position: absolute;
+	width: 206px;
+	height: 330px;
+	top: 100px;
+	left: 40px;
+	background-color: #282828; 
+}
+#merch2{
+	position: absolute;
+	width: 206px;
+	height: 330px;
+	top: 100px;
+	left: 276px;
+	background-color: #282828; 
+}
+#merch3{
+	position: absolute;
+	width: 206px;
+	height: 330px;
+	top: 100px;
+	left: 512px;
+	background-color: #282828; 
+}
+#merch4{
+	position: absolute;
+	width: 206px;
+	height: 330px;
+	top: 100px;
+	left: 748px;
+	background-color: #282828; 
+}
+.merchfoto{
+	margin-bottom: 16px;
+}
+.linkmerchshop{
+	background-color: #ffe100;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.linkmerch{
+	color: white;
+	text-decoration: none;
+}
+a.linkmerch:visited{
+	color:white;
+}
+a.linkmerch:hover{
+	font-weight: bold;
+}
+/*
+
+VIDEO
+
+*/
+#videocontainer{
+	position:absolute;
+	width: 1024px;
+	height: 940px;
+	top: 80px;
+	left: 0px;
+	background-image:url('../img/gallerybackground.jpg'); 
+	background-repeat: repeat-y;
+}
+h3{
+	color: white;
+}
+.video1{
+	width:421px;
+	margin-left: 302px;
+	margin-bottom: 30px;
+}
+.video2{
+	width:421px;
+	margin-left: 302px;
+	margin-top:30px;
+}
+#socialmediavideo{
+	position:absolute;
+	width: 1024px;
+	height: 80px;
+	top: 1020px;
+	left: 0px;
+	background-color:black; 
+	text-align: center;
+	padding-top: 30px;
+}
+#finalinfovideo{
+	position: absolute;
+	width: 1024px;
+	height: 80px;
+	top: 1130px;
+	left: 0px;
+	background-color: #202020;
+}
+
+
+
+
+
+
+
